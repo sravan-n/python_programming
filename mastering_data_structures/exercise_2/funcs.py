@@ -50,4 +50,8 @@ def add_time2(time1, time2):
     Parameter time2: the time to add
     Precondition: time2 is a Time object
     """
-    pass
+    mins = time1.minutes + time2.minutes
+    hrs = time1.hours + time2.hours + mins // 60
+
+    time1.hours = hrs
+    time1.minutes = mins % 60
