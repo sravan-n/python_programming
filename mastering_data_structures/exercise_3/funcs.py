@@ -50,4 +50,5 @@ def isnetid(s):
     Parameter s: the string to check
     Precondition: s is a string
     """
-    pass
+    
+    return ((s[:2].islower() and s[:2].isalpha() and s[2:].isnumeric()) or (s[:3].islower() and s[:3].isalpha() and s[3:].isnumeric())) 
