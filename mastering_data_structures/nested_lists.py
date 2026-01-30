@@ -100,19 +100,9 @@ def crossout_2(table,row,col):
     Parameter col: the colummn to remove
     Precondition: col is an index (int) for a column of table
     """
-    
-    total_rows = len(table)
-    total_columns = len(table[0])
 
-    for row_pos in range(total_rows):
-        if row_pos != row:
-            for col_pos in range(total_columns):
-                if col_pos == col:
-                    table[row_pos].pop(col_pos)
-        else:
-            table.pop(row_pos)
+    table.pop(row)
 
+    for row_in_table in table:
+        row_in_table.pop(col)
 
-if __name__  == '__main__':
-    a = [[1,3,5],[6,2,7],[5,8,4]]
-    print(crossout_2(a, 1, 2))
