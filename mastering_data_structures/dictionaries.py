@@ -201,4 +201,33 @@ def reports_above_temp(weather,temp):
                 no_of_reports_above_temp = no_of_reports_above_temp + 1
 
     return no_of_reports_above_temp
-             
+
+
+def drop_below(adict,limit):
+    """
+    Deletes all students in the dictionary with grades below limit.
+    
+    The dictionary adict has netids for keys and numbers 0-100 for values. These
+    represent the grades that the students got on the exam.
+    
+    Examples: Suppose a = {'wmw2' : 55, 'abc3' : 90, 'jms45': 86}
+        drop_below(a,60) changes a to {'abc3' : 90, 'jms45': 86}
+        drop_below(a,90) changes a to {'abc3' : 90}
+        drop_below(a,95) changes a to {}
+        drop_below(a,50) leaves a unchanged as {'wmw2' : 55, 'abc3' : 90, 'jms45': 86}
+    
+    Parameter adict: the dictionary of grades
+    Precondition: adict is dictionary mapping strings to ints
+    
+    Paramater limit: the cut-off boundary
+    Precondition: limit is a number (int or float)
+    """
+    # Hint: Create a list of netids to drop, and THEN drop them
+    
+    keys = list(adict.keys())
+
+    for k in keys:
+        if adict[k] < limit:
+            del adict[k]
+
+
