@@ -36,6 +36,7 @@ def row_sums(table):
     return result_list
 
 
+# Immutable Functions
 def crossout(table,row,col):
     """
     Returns a copy of the table, missing the given row and column.
@@ -75,3 +76,43 @@ def crossout(table,row,col):
 
     return crossout_table
 
+
+# Mutable Functions
+def crossout_2(table,row,col):
+    """
+    Modifies the table to remove the given row and column.
+    
+    Examples:
+        If a = [[1,3,5],[6,2,7],[5,8,4]], crossout(a,1,2) changes a to [[1,3],[5,8]]
+        If a = [[1,3,5],[6,2,7],[5,8,4]], crossout(a,0,0) changes a to [[2,7],[8,4]]
+        If a = [[1,3],[6,2]], crossout(a,0,0) changes a to [[2]]
+        If a = [[6]], crossout(a,0,0) changes a to []
+    
+    Parameter table: the nested list to modify
+    Precondition: table is a table of numbers.  In other words, 
+        (1) table is a nested 2D list in row-major order, 
+        (2) each row contains only numbers, and 
+        (3) each row is the same length.
+    
+    Parameter row: the row to remove
+    Precondition: row is an index (int) for a row of table
+    
+    Parameter col: the colummn to remove
+    Precondition: col is an index (int) for a column of table
+    """
+    
+    total_rows = len(table)
+    total_columns = len(table[0])
+
+    for row_pos in range(total_rows):
+        if row_pos != row:
+            for col_pos in range(total_columns):
+                if col_pos == col:
+                    table[row_pos].pop(col_pos)
+        else:
+            table.pop(row_pos)
+
+
+if __name__  == '__main__':
+    a = [[1,3,5],[6,2,7],[5,8,4]]
+    print(crossout_2(a, 1, 2))
