@@ -100,12 +100,6 @@ def past_a_week(d1,d2):
         return False
 
 
-# strftime('%Y-%m-%d' H:M:S)
-# isoformat()
-
-# dateutil.parse -> parse
-
-
 def str_to_time(timestamp):
     """
     Returns the datetime object for the given timestamp (or None if the stamp is invalid)
