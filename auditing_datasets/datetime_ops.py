@@ -4,6 +4,7 @@ Functions for parsing time values and determining daylight hours.
 """
 import datetime
 from dateutil.parser import parse
+import pytz
 
 
 def christmas_day(year):
@@ -164,7 +165,7 @@ def sunset(date,daycycle):
         return None
 
 
-def str_to_time(timestamp,tzsource=None):
+def str_to_time_2(timestamp,tzsource=None):
     """
     Returns the datetime object for the given timestamp (or None if timestamp is 
     invalid).
@@ -190,13 +191,31 @@ def str_to_time(timestamp,tzsource=None):
     Precondition: tzsource is either None, a string naming a valid time zone,
     or a datetime object.
     """
-    # HINT: Use the code from the previous exercise and add time zone handling.
-    # Use localize if tzsource is a string; otherwise replace the time zone if not None
     
+    # Try to parse the timestamp string
     try:
-        pass
+        ts = parse(timestamp)
     except:
+        # Parsing failed, return None
         return None
+    
+    # Check if the parsed timestamp already has timezone information
+    if ts.tzinfo == None:
+        # Timestamp has no timezone, check if we need to add one
+        if tzsource != None:
+            # If tzsource is a string (timezone name like 'America/Chicago')
+            if type(tzsource) == str:
+                tz = pytz.timezone(tzsource)
+                return tz.localize(ts)
+            # If tzsource is a datetime object, extract and apply its timezone
+            else:
+                return ts.replace(tzinfo=tzsource.tzinfo)
+        else:
+            # No tzsource provided, return naive datetime
+            return ts
+    else:
+        # Timestamp already has timezone, keep it unchanged
+        return ts
 
 
 def daytime(time,daycycle):
