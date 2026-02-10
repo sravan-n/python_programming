@@ -258,7 +258,36 @@ def daytime(time,daycycle):
     Parameter daycycle: The daycycle dictionary
     Precondition: daycycle is a valid daycycle dictionary, as described above
     """
-    # HINT: Use the code from the previous exercise to get sunset AND sunrise
-    # Add a timezone to time if one is missing (the one from the daycycle)
-    pass                    # Implement this function
+    
+    try:
+        # Extract year and date components from the time parameter
+        year = str(time.year)
+        date = time.strftime('%m-%d')
+        
+        # Get the timezone from the daycycle dictionary
+        timezone = daycycle['timezone']
 
+        # Build ISO format strings for sunset and sunrise times
+        sunset_iso =  year + '-' + date + 'T' + daycycle[year][date]['sunset']
+        sunrise_iso =  year + '-' + date + 'T' + daycycle[year][date]['sunrise']
+        
+        # Convert to datetime objects with timezone information
+        sunset = str_to_time_2(sunset_iso, timezone)
+        sunrise = str_to_time_2(sunrise_iso, timezone)
+        
+    except:
+        # Return None if any key is missing from the dictionary
+        return None
+    
+    # If time parameter has no timezone, add the daycycle timezone to it
+    if time.tzinfo == None:
+        tz = pytz.timezone(timezone)
+        time = tz.localize(time)
+    
+    # Check if time is between sunrise and sunset
+    if sunrise < time and time < sunset:
+        return True
+    else:
+        return False
+
+    
