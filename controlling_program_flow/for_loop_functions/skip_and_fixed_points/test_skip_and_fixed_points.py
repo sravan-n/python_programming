@@ -1,8 +1,6 @@
 """
 Test script for the for-loop functions
 
-Author: Walker M. White
-Date: July 30, 2019
 """
 import introcs
 import funcs

@@ -3,8 +3,6 @@ Module with mutable functions on lists.
 
 All of these functions modify their list arguments.
 
-Author: Sravan Kumar Nuthalapati
-Date: 01/28/2026
 """
 
 
@@ -68,8 +66,6 @@ Module with non-mutable functions on lists.
 
 All of these functions make use of accumulators that make new lists.
 
-Author: Sravan Kumar Nuthalapati
-Date: 01/28/2026
 """
 
 def clamp(alist,min,max):
@@ -143,8 +139,6 @@ Module demonstrating mutable list functions.
 Neither of these functions should use for-lopps.  Instead, they should use 
 list methods.
 
-Author: Sravan Kumar
-Date: Nuthalapati
 """
 
 

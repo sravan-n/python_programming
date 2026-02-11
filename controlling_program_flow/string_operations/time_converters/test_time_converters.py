@@ -1,8 +1,6 @@
 """  
 A completed test script for the time functions.
 
-Author: Walker M. White
-Date: July 30, 2019
 """
 import funcs
 import introcs

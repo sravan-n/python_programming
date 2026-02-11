@@ -4,8 +4,6 @@ Module demonstrating how to write functions with objects.
 This module contains two versions of the same function.  One version returns a new
 value, while other modifies one of the arguments to contain the new value.
 
-Author: Sravan Kumar Nuthalapati
-Date: 01/22/2026
 """
 import clock
 

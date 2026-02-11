@@ -1,8 +1,6 @@
 """
 Module with for-loops that loop over positions.
 
-Author: Sravan Kumar Nuthalapati
-Date: 12/01/2025
 """
 
 

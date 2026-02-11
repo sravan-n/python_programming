@@ -4,8 +4,6 @@ Functions demonstrating string methods.
 Neither this module nor any of these functions should import the introcs module.
 In addition, you are not allowed to use loops or recursion in either function.
 
-Author: Sravan Kumar Nuthalapati
-Date: 01/23/2026
 """
 
 

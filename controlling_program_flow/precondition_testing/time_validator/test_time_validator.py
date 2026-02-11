@@ -4,8 +4,6 @@ A completed test script for the time functions.
 This test script is more advanced than normal test scripts in that it uses try-except
 statements to check that time_to_minutes enforces its preconditions.
 
-Author: Walker M. White
-Date: July 30, 2019
 """
 import funcs
 import introcs

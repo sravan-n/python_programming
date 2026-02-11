@@ -4,8 +4,6 @@ A collection of functions to support the translation of words into Pig Latin.
 This module contains two functions.  The first function searchs for the location of the 
 first vowel.  The second function uses this as a helper to perform the conversion.
 
-Author: Sravan Kumar Nuthalapati
-Date: 11/24/2025
 """
 import introcs
 

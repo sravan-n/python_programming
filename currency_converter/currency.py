@@ -5,8 +5,6 @@ This module provides several string parsing functions to implement a simple
 currency exchange routine using an online currency service. The primary function
 in this module is exchange().
 
-Author: Sravan Kumar Nuthalapati
-Date:   10/28/2025
 """
 
 import introcs

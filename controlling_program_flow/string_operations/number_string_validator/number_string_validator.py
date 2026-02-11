@@ -1,8 +1,6 @@
 """  
 A function to check the validity of a numerical string
 
-Author: Sravan Kumar Nuthalapati
-Date: 11/24/2025
 """
 import introcs
 

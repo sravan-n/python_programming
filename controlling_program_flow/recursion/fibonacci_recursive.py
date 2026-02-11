@@ -4,8 +4,6 @@ Recursive implementation of the fibonacci sequence
 This function should be copied into the Python Tutor.  That way you can
 see how recursion affects the call stack.
 
-Author: Walker M. White
-Date:   April 15, 2019
 """
 
 # Function Definition

@@ -28,8 +28,6 @@ This way of encoding messages is no longer used for secure communication, becaus
 is so easy to break.  But rot-13 can still be found on some Internet message boards
 where people use it to hide movie spoilers and for other light-hearted topics.
 
-Author: Sravan Kumar Nuthalapati
-Date: 12/02/2025
 """
 import introcs
 

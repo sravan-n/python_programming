@@ -1,8 +1,6 @@
 """  
 A completed test script for the function valid_format.
 
-Author: Walker M. White
-Date: July 30, 2019
 """
 import func
 import introcs

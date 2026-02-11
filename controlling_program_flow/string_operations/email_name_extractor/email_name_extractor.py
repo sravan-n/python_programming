@@ -1,8 +1,6 @@
 """  
 A function to extract names from e-mail addresses.
 
-Author: Sravan Kumar Nuthalapati
-Date: 11/23/2025
 """
 import introcs
 

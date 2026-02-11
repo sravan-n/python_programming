@@ -3,8 +3,6 @@ Module demonstrating an input-driven while loop
 
 There is no test script for this module.  Run this module as a script to test it.
 
-Author: Sravan Kumar Nuthalapati
-Date: 12/01/2025
 """
 
 

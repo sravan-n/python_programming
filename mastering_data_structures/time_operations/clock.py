@@ -4,8 +4,6 @@ Module that provides a simple Time class
 This class illustrates the concept of invariants,  Invariants limit what values can be 
 assigned to the attributes of an object.
 
-Author: Walker M. White (wmw2)
-Date:   September 21, 2018
 """
 
 

@@ -1,8 +1,6 @@
 """
 Module with range-based for-loop functions.
 
-Author: Sravan Kumar Nuthalapati
-Date: 12/01/2025
 """
 
 def factorial(n):

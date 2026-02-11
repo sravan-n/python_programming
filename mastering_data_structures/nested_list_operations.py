@@ -3,8 +3,6 @@ Module demonstrating immutable functions on nested lists.
 
 All of these functions make use of accumulators that make new lists.
 
-Author: Sravan Kumar Nuthalapati
-Date: 01/29/2026
 """
 
 

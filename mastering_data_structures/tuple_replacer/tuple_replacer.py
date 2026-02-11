@@ -4,8 +4,6 @@ Module to show off tuple methods.
 Neither this module nor the function should import the introcs module.  In addition,
 the function should not use a loop or recursion.
 
-Author: Sravan Kumar Nuthalapati
-Date: 01/23/2026
 """
 
 

@@ -1,8 +1,6 @@
 """  
 A completed test script for the function replace_first
 
-Author: Walker M. White
-Date: August 9, 2019
 """
 import introcs
 import func

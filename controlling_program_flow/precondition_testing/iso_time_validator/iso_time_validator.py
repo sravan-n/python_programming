@@ -1,8 +1,6 @@
 """
 A function to check if a string is in valid ISO 8601 format.
 
-Author: Walker M. White
-Date: July 30, 2019
 """
 import introcs
 

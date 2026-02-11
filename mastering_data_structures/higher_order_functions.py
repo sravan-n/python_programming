@@ -4,8 +4,6 @@ Functions demonstrating using other functions as parameters.
 These two functions are implementations of the famous fold functions.  A variation of
 fold is called "reduce", which is part of Google's famous map-reduce set-up.
 
-Author: Sravan Kumar Nuthalapati
-Date: 01/27/2026
 """
 
 

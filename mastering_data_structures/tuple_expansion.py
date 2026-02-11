@@ -1,8 +1,6 @@
 """
 Module to demonstrate tuple expansion.
 
-Author: Sravan Kumar Nuthalapati
-Date: 01/29/2026
 """
 
 

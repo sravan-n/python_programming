@@ -3,8 +3,6 @@ Module with more complex for-loop functions.
 
 All of these functions make use of accumulators that make new tuples.
 
-Author: Sravan Kumar Nuthalapati
-Date: 12/01/2025
 """
 
 

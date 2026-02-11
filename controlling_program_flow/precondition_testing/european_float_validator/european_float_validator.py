@@ -1,8 +1,6 @@
 """  
 A function to test for floats in European format
 
-Author: Sravan Kumar Nuthalapati
-Date: 11/25/2025
 """
 import introcs
 

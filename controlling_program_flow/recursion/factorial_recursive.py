@@ -4,8 +4,6 @@ Recursive implementation of factorial
 This function should be copied into the Python Tutor.  That way you can
 see how recursion affects the call stack.
 
-Author: Walker M. White
-Date:   April 15, 2019
 """
 import sys
 

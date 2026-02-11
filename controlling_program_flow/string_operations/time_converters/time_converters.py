@@ -4,8 +4,6 @@ A module to demonstrate debugging with conditionals.
 This module contains several functions with bugs in it.  You are to
 find and remove the bugs using the techniques introduced in the video.
 
-Author: Walker M. White
-Date: July 30, 2019
 """
 import introcs
 

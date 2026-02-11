@@ -1,8 +1,6 @@
 """  
 A test script for the function iso_8601.
 
-Author: Sravan Kumar Nuthalapati
-Date: 11/25/2025
 """
 import func
 import introcs

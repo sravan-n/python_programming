@@ -1,8 +1,6 @@
 """  
 A completed test script for the function extract_name.
 
-Author: Walker M. White
-Date: July 30, 2019
 """
 import func
 import introcs

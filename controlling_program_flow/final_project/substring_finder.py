@@ -3,8 +3,6 @@ A function to find all instances of a substring.
 
 This function is not unlike a 'find-all' option that you might see in a text editor.
 
-Author: Sravan Kumar Nuthalapati
-Date: 12/02/2025
 """
 import introcs
 

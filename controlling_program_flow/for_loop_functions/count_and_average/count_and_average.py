@@ -1,8 +1,6 @@
 """
 Module with simple for-loop functions.
 
-Author: Sravan Kumar Nuthalapti
-Date: 12/01/2025
 """
 
 

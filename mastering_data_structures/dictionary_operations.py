@@ -3,8 +3,6 @@ Module demonstrating immutable functions on dictionaries
 
 All of these functions make use of accumulators.
 
-Author: Sravan Kumar Nuthalapati
-Date: 01/30/2026
 """
 
 
@@ -140,8 +138,6 @@ The contents of interest in this module is the nested "temperature" dictionary.
 
 IMPORTANT: Not all weather reports contain a temperature measurement.
 
-Author: Sravan Kumar Nuthalapati
-Date: 01/30/2026
 """
 
 

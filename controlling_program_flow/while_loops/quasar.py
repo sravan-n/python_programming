@@ -6,8 +6,6 @@ maximize your winnings, see
     
     https://masseffect.fandom.com/wiki/Quasar
 
-Author: Sravan Kumar Nuthalapati
-Date: 12/02/2025
 """
 import random
 import introcs

@@ -6,8 +6,6 @@ correct, we need to test (1) its type and (2) each attribute separately.  Becaus
 functions can now modify the arguments, we also need to verify that arguments are not
 modified unless the specification specifically says they are.
 
-Author: Walker M. White
-Date: August 9, 2019
 """
 import funcs
 import clock

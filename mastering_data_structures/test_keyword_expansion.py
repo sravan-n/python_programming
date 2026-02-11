@@ -1,8 +1,6 @@
 """
 Partially completed test script for keyword expansion
 
-Author: Sravan Kumar Nuthalapati
-Date: 01/30/2026
 """
 import introcs
 import func

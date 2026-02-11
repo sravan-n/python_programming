@@ -1,8 +1,6 @@
 """  
 A completed test script for the string functions.
 
-Author: Walker M. White
-Date: August 9, 2019
 """
 import introcs
 import funcs

@@ -1,8 +1,6 @@
 """
 Partially completed test script for tuple expansion
 
-Author: Sravan Kumar Nuthalapati
-Date: 01/29/2026
 """
 import introcs
 import func

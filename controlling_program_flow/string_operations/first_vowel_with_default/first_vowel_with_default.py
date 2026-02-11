@@ -1,8 +1,6 @@
 """  
 A function to search for the first vowel position
 
-Author: Sravan Kumar Nuthalapati
-Date: 11/23/2025
 """
 import introcs
 

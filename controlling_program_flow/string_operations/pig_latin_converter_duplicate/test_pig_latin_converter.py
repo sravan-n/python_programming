@@ -1,8 +1,6 @@
 """  
 A completed test script for the Pig Latin module.
 
-Author: Sravan Kumar Nuthalapati
-Date: 11/25/2025
 """
 import funcs
 import introcs

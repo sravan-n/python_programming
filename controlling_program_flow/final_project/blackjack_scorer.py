@@ -13,8 +13,6 @@ King and 'A' for Ace.  The second character is the suit: 'H' for hearts, 'D' for
 
 For example ('KS','AD') is a blackjack hand with the King of Spades and Ace of Diamonds.
 
-Author: Sravan Kumar Nuthalapati
-Date: 12/02/2025
 """
 import introcs
 

@@ -4,8 +4,6 @@ A module to demonstrate how to test precondition enforcement.
 This module has a function (and a helper) that uses assert statements to enforce 
 the preconditions.
 
-Author: Sravan Kumar Nuthalapai
-Date: 11/25/2025
 """
 import introcs
 

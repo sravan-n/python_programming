@@ -3,8 +3,6 @@ Module of recursively defined functions.
 
 In each of these functions, the recursive steps are explicit in the specification.
 
-Author: Sravan Kumar Nuthalapati
-Date: 12/02/2025
 """
 
 
