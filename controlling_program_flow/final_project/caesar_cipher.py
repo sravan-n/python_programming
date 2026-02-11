@@ -52,9 +52,6 @@ def encode(text,n):
     Parameter n: the number of positions to shift
     Precondition: n is an int between 0 and 25 (inclusive)
     """
-    # Hint: Look at the Python functions ord and chr
-    # Lower case letters have ord values 97 to 122
-    
     result = ''
     
     for letter in text:

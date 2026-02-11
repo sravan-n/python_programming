@@ -12,8 +12,6 @@ def count_lines(filepath):
     Parameter filepath: The file to be read
     Precondition: filepath is a string with the FULL PATH to a text file
     """
-    # HINT: Remember, you can use a file in a for-loop
-
     file = open(filepath)
 
     no_of_line = 0
@@ -40,8 +38,6 @@ def write_numbers(filepath,n):
     Parameter n: The number of lines to write
     Precondition: n is an int > 0.
     """
-    # HINT: You can only write strings to a file, so convert the numbers first
-
     file = open(filepath, 'w')
 
     no_of_entries = 0

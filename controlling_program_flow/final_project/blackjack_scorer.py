@@ -43,9 +43,6 @@ def bjack(hand):
     cards. The first character of each string is '2'-'9', 'T', 'J', 'Q', 'K', or 'A'. 
     The second character of each string is 'H', 'D', 'C', or 'S'.
     """
-    # Hint: Keep track of whether you have seen any aces in the hand that are worth 11
-    # If so, subtract 10 from the accumulator if you go over.
-    
     result = 0
     ace_count = 0
     

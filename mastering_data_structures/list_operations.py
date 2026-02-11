@@ -182,8 +182,6 @@ def rotate(alist):
     Parameter a: The list to rotate
     Precondition: a non-empty list
     """
-    # Hint: Read the method description for insert
-    
     len_list = len(alist)
     temp = alist[len_list-1]
     alist.pop()
